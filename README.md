@@ -115,14 +115,6 @@ A news-sentiment tracker that ingests RSS feeds, scores each article, and visual
 </tr>
 </table>
 
-## 🔥 GitHub Activity
-
-<div align="center">
-
-![Felipe's GitHub streak](https://streak-stats.demolab.com/?user=syst3mm&theme=dark&hide_border=true)
-
-</div>
-
 ## 🤝 Connect
 
 <div align="center">
