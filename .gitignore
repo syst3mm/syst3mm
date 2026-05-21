@@ -1,0 +1,10 @@
+# Local workspace docs — design spec & implementation plan
+# (kept local; not part of the published profile repo)
+docs/
+
+# Brainstorming visual-companion artifacts
+.superpowers/
+
+# OS files
+.DS_Store
+Thumbs.db
