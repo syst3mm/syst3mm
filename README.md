@@ -10,7 +10,7 @@
 
 ## 🧑‍💻 About
 
-I like building things end-to-end — from Next.js dashboards to an iOS app to LLM multi-agent systems. I'm currently on a gap year, building a lot and applying to universities in the US. Most of my work lives in private repos, so the section below is a tour of what I've actually been up to.
+I like building things end-to-end — from Next.js dashboards to iOS and Android apps to ML forecasting and LLM multi-agent systems. I'm currently on a gap year, building a lot and applying to universities in the US. Most of my work lives in private repos, so the section below is a tour of what I've actually been up to.
 
 ## 🛠️ Tech Stack
 
@@ -19,14 +19,16 @@ I like building things end-to-end — from Next.js dashboards to an iOS app to L
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-**Web & iOS**  
+**Web & Mobile**  
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0066CC?style=flat-square&logo=swift&logoColor=white)
 ![TCA](https://img.shields.io/badge/TCA-2C3E50?style=flat-square)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
 **Backend & Data**  
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -40,6 +42,7 @@ I like building things end-to-end — from Next.js dashboards to an iOS app to L
 **ML & AI**  
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Core ML](https://img.shields.io/badge/Core_ML-000000?style=flat-square&logo=apple&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-8CBF3F?style=flat-square)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![LLM Agents](https://img.shields.io/badge/LLM_Agents-6E56CF?style=flat-square)
 
@@ -110,6 +113,46 @@ A multi-tenant B2B SaaS that automates capture, classification, and approval of 
 A news-sentiment tracker that ingests RSS feeds, scores each article, and visualizes how the tone of coverage on a topic shifts over time.
 
 `Next.js` · `Supabase` · `Vercel`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Curupira
+
+A fire-tracking and community-alert Android app for Mato Grosso, named for the folklore guardian of the forest — NASA and INPE satellite hotspots stream onto a live map every 15 minutes.
+
+`Flutter` · `Supabase` · `PostGIS`
+
+</td>
+<td width="50%" valign="top">
+
+### CuruCast
+
+The ML engine behind Curupira's fire-risk forecast — predicts next-day ignition probability for every ~36 km² cell of Mato Grosso, and only ships if it beats INPE's own index.
+
+`Python` · `LightGBM` · `H3`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Scholarly
+
+A student portal for a Brazilian high school, rebuilt from a static site into a real app — real-time class chat, DMs with attachments, and a gamified school-points economy.
+
+`Next.js` · `React` · `Supabase` · `Tailwind`
+
+</td>
+<td width="50%" valign="top">
+
+### Confia
+
+Type any Brazilian company's CNPJ and get a low / medium / high risk verdict — official registration records cross-checked into a single trust profile.
+
+`Next.js` · `Open data`
 
 </td>
 </tr>
